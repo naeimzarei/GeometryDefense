@@ -6,7 +6,7 @@ import React, {Component} from "react";
 export default class Message extends Component {
     render() {
         return (
-            <h2>{this.props.message}</h2>
+            <li className="Message">{this.props.message}</li>
         );
     }
 }

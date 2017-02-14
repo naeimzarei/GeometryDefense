@@ -1,5 +1,22 @@
+Body {
+    background-color: #18121E;
+}
+
 .Background {
     background-color: #233237;
     width: 1000px;
     height: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    /*Make another container for the GameLabels for this*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.Message {
+    color: #FFFFFF;
+    font-family: "Didot";
+    font-size: 28px;
+    display: inline;
+    padding: 15px;
 }

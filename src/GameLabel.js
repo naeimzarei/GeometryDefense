@@ -7,9 +7,7 @@ import Message from "./Message";
 export default class GameLabel extends Component {
     render() {
         return (
-            <div>
-                <Message />
-            </div>
+            <Message message={this.props.message}/>
         );
     }
 }
