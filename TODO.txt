@@ -4,6 +4,8 @@ Tuesday, February 14, 2017
 2. Made a container for GameLabel components and fixed their positioning
 3. TODO
     - add some pictures to GitHub description
+    - add tower sprite in center of game board
+    - learn about React animations and animate the defense system
 
 Monday, February 13, 2017
 
