@@ -22,7 +22,7 @@ export default class GameLabel extends Component {
     
     render() {
         return (
-            <div className="GameLabel">
+            <div className={ (this.props.css === "bottom") ? "GameLabel-Bottom" : "GameLabel"}>
                 {this.state.messagesArray}
             </div>
         );

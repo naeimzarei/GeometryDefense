@@ -10,15 +10,21 @@ Body {
     border-radius: 10px;
 }
 
+.GameLabel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.GameLabel-Bottom {
+    position: absolute;
+    left: 35%;
+    top: 65%;
+}
+
 .Message {
     color: #FFFFFF;
     font-family: "Didot";
     font-size: 28px;
     display: inline;
     padding: 15px;
-}
-
-.GameLabel {
-    display: flex;
-    justify-content: space-between;
 }
