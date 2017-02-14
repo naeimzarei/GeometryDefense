@@ -9,9 +9,9 @@ export default class Background extends Component {
     render() {
         return (
             <div className="Background">
-                <GameLabel message="Score" />
-                <GameLabel message="Time" />
-                <GameLabel message="Settings" />
+                <GameLabel labels={["Score", "Time", "Settings"]} />
+                <br />
+                <GameLabel labels={["Winner"]} />
             </div>
         );
     }
