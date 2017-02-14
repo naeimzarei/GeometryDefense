@@ -5,6 +5,6 @@ import React, {Component} from "react";
 
 export default class Tower extends Component {
     render() {
-        return null;
+        return (null);
     }
 }
