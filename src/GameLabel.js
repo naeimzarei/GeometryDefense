@@ -1,5 +1,12 @@
 /**
  * Created by naeimzarei on 2/13/17.
+ *
+ * This class is used to create
+ * GameLabels, which are components used
+ * as labels. For instance, GameLabels are
+ * used to change game settings, see the game
+ * timer, see the game score, etc.
+ *
  */
 import React, {Component} from "react";
 import Message from "./Message";

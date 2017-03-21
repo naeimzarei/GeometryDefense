@@ -10,6 +10,12 @@ Body {
     border-radius: 10px;
 }
 
+.Background-Container {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+
 .GameLabel {
     display: flex;
     justify-content: space-between;
@@ -17,8 +23,8 @@ Body {
 
 .GameLabel-Bottom {
     position: absolute;
-    left: 35%;
-    top: 65%;
+    left: 38%;
+    top: 85%;
 }
 
 .Message {
@@ -27,4 +33,28 @@ Body {
     font-size: 28px;
     display: inline;
     padding: 15px;
+}
+
+.Tower {
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    top: 40%;
+    left: 45%;
+}
+
+.example-appear {
+    opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}
+
+.Laser {
+    position: absolute;
+    top: 45%;
+    left: 48.5%;
+    visibility: hidden;
 }

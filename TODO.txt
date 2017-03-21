@@ -1,3 +1,116 @@
+Tuesday, March 14, 2017
+1. spriteObjectArray is now single dimensional array containing
+    information about the Sprite, including its style
+2. Basic code cleanup, including removing unnecessary CSS
+    code and deleting unnecessary switch statements from Background.js
+3. Learned that React only re-renders components in the render() function,
+not local variables and other state variables
+4. Also learned that helper functions can be used to re-render
+only the intended parts of an array in the render() function
+3. TODO
+    - work on animateSprite() function
+    - clean up the code in generateSprite() function
+
+Sunday, March 12, 2017
+1. Fixed sideways laser beam trajectory
+2. Attempted to make an array with Sprite component data
+. TODO
+    - implement 2D array of Sprite component information
+    - spriteObjectArray: array of array, each individual array
+        contains information about one Sprite component: object
+        data as well as the style of the Sprite component
+    [
+        [
+            {SpriteData},
+            {SpriteStyle}
+        ]
+    ]
+
+Saturday, March 11, 2017
+1. Added function to generate Sprite components, generateSprite()
+2. Fixed initial positioning of Sprite components on DOM
+3. Added an array for Sprite components in state variables
+4. TODO
+    - function for the movement of Sprites
+    - fix sideways laser beam trajectory
+    - add timer on top center
+
+Thursday, March 9, 2017
+1. Added laser beam sound effect
+2. Added keyboard input functionality
+3. TODO
+    - function to generate Sprite components
+    - add className to Sprite components
+    - spriteArray: array of Sprite components (2D array)
+        [
+            [
+                id: key/id value of Sprite,
+                shapeColor: the color of the Sprite,
+                shapeName: the shape of the Sprite,
+                ...
+            ]
+        ]
+
+
+
+Tuesday, March 7, 2017
+1. Fixed negative degree laser beam bug
+2. Fixed laser trajectory
+3. TODO
+    - fix sideways laser animation
+    - implement laser sound
+
+Sunday, March 5, 2017
+1. Worked on laser beam animation function
+2. TODO
+    - continue working on laser beam function
+    - negative degree rotation bug
+    - look up sounds for the game
+
+Thursday, March 2, 2017
+1. Created animated rotation functions using frame by frame rotation
+2. Added detailed documentation for various functions in Background.js
+3. Added brief documentation for all component classes
+4. TODO
+    - create a laser beam animation function
+    - check Message.js render function
+    - delete TodoList.js? No keep that for later.
+    - add the sprites for the program
+
+Tuesday, February 28, 2017
+1. Figured out that jQuery and ReactCSSTransitionGroup cannot be used
+to dynamically animate content on the DOM
+2. TODO
+    - implement your own JavaScript animation function
+    - meet with Dr. Bishop to talk about React animations
+
+Friday, February 24, 2017
+1. Tried out rotations using CSS3
+2. TODO
+    - consider clockwise and counterclockwise rotations
+    - get basic sprite movement from various degrees
+
+Tuesday, February 21, 2017
+1. Continued learning about React CSS and animations
+2. TODO
+    - how to use CSS and animations at same time
+    - how to implement keyframes using React
+
+Thursday, February 16, 2017
+1. Created Sprite component
+2. Learned more about CSS transitions
+3. TODO
+    - learn how to change CSS dynamically
+    - that means you must use setState and a constructor
+    - pass the style rules and change them using setState, using a function
+
+Wednesday, February 15, 2017
+1. Added a Tower component
+2. Started learning about React animations
+3. Learned how to initially animate components in React
+4. TODO
+    - make a Sprite component
+
 Tuesday, February 14, 2017
 
 1. Added a to do file to Git
@@ -11,7 +124,7 @@ Monday, February 13, 2017
 
 1.	Updated the README.md file
 2.	Successfully created a GitHub repository for the project
-3. Make a container for the GameLabel components. You cannot simply use the
+3.  Make a container for the GameLabel components. You cannot simply use the
 Background component as the container as that will ruin the placement of all other components.
 
 
@@ -21,7 +134,7 @@ Initial Brainstorming
 1.	Make objects and fix the degree at which the defense tower could spin 
 2.	FireBase service —> login, database, push notifications, high score system
 3.	However this should still be accessible
-4.	Artyium - voice recognition 
+4.	Artyum.JS - voice recognition 
 
 
 Game Brainstorming

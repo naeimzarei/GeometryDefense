@@ -1,12 +1,16 @@
 /**
  * Created by naeimzarei on 2/13/17.
+ *
+ * This class is used to embed a message within
+ * the GameLabel component.
+ *
  */
 import React, {Component} from "react";
 
 export default class Message extends Component {
     render() {
         return (
-            <li className="Message">{this.props.message}</li>
+            <span className="Message">{this.props.message}</span>
         );
     }
 }
