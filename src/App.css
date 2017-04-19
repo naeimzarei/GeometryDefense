@@ -2,14 +2,6 @@ Body {
     background-color: #18121E;
 }
 
-.Background {
-    background-color: #233237;
-    width: 1000px;
-    height: 500px;
-    margin: 0 auto;
-    border-radius: 10px;
-}
-
 .Background-Container {
     width: 1000px;
     height: 500px;
@@ -19,20 +11,16 @@ Body {
 .GameLabel {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    font-size: 24px;
+    font-family: "Didot";
+    color: #FFFFFF;
 }
 
 .GameLabel-Bottom {
-    position: absolute;
-    left: 38%;
-    top: 85%;
-}
-
-.Message {
-    color: #FFFFFF;
-    font-family: "Didot";
-    font-size: 28px;
-    display: inline;
-    padding: 15px;
+    position: fixed;
+    left: 42%;
+    top: 575px;
 }
 
 .Tower {

@@ -27,7 +27,7 @@ export default class Tower extends Component {
                         style={this.props.css}/>;
         } else if (towerNumber === "1_3") {
             return <img key="1_3" alt="1_3" className="Tower"
-                        src={require("../sprites/tower/Tower 0_3.png")}
+                        src={require("../sprites/tower/Tower 1_3.png")}
                         style={this.props.css}/>;
         }
         return <img key="0_3" alt="0_3" className="Tower"

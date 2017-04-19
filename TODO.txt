@@ -1,3 +1,52 @@
+Tuesday, April 11, 2017
+1. Bug fixes to animateLaser() function
+2. Added hasLaserCollided(key) and hasTowerCollided(key).
+    - hasLaserCollided(key):
+        checks if laser has collided into a Sprite with the
+        given key
+    - hasTowerCollided(key):
+        checks if a Sprite with the given key has collided
+         into the Tower
+3. Fixed interval rate for Sprite movement. Now the Sprites move
+    slower so that the user has time to shoot.
+4. Added getLaserCoordinates() function: returns the coordinates
+of the laser
+
+Saturday, April 8, 2017
+1. Completed animateSprite(key): animates a Sprite component
+    during rendering
+2. Made animateSpriteHelper(key, left, top): returns a style
+    object for the Sprite given the key, a left value, and
+    a top value
+ . TODO
+    - create function to automatically render Sprite components
+        at a set interval
+
+Friday, April 7, 2017
+1. Deleted animateSprite() function because it
+    was not working. Started on an animation function
+    for the Sprite components again.
+2. Deleted changeSpriteProperties(key, newCSSObject) because
+    it was non-functional as well. Function will not be worked
+    on unless there is a need for it later on.
+3. Made an algorithm to animate the Sprite components;
+    function will be called animateSprite(key), where key
+    is a reference to the Sprite's key value
+4. Started working on animateSprite(key) function
+ . TODO
+    - continue working on the animation function for Sprites
+
+Friday, March 24, 2017
+1. Fixed CSS positioning of Background component
+2. Created function changeSpriteProperties(key, newCSSObject):
+changes the CSS properties of a particular Sprite. Needs
+to be updated to work.
+3. Created helper functions: deleteSprite(), getSprite(), etc.
+ . TODO
+    - function to check if collision with sprite and laser beam (later)
+        1. distance formula
+        2. intersect function: intersect from radius and laser point
+
 Tuesday, March 14, 2017
 1. spriteObjectArray is now single dimensional array containing
     information about the Sprite, including its style
@@ -10,6 +59,8 @@ only the intended parts of an array in the render() function
 3. TODO
     - work on animateSprite() function
     - clean up the code in generateSprite() function
+    - fix css positioning of bottom right sprites
+    - change overall positioning format of game board to "fixed"
 
 Sunday, March 12, 2017
 1. Fixed sideways laser beam trajectory
