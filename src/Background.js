@@ -44,7 +44,7 @@ export default class Background extends Component {
             INTERVAL_DURATION_MOVEMENT: 10, // movement animation duration (ms)
             INTERVAL_DURATION_LASER: 1, // laser beam animation duration (ms)
             INTERVAL_DURATION_SPRITE: 300, // sprite animation duration (ms) (1200)
-            INTERVAL_DURATION_SPRITE_SPAWN: 6000, // the rate at which Sprites spawn (ms)
+            INTERVAL_DURATION_SPRITE_SPAWN: 1000, // the rate at which Sprites spawn (ms)
             SPEECH_SYNTHESIS_DELAY: 250, // delay before speechSynthesis library loads (250)
             LASER_OFFSET: 5, // the laser offset value
             TOWER_OFFSET: 8, // the tower offset value

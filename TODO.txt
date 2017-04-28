@@ -1,3 +1,7 @@
+Friday, April 21, 2017
+1. Sprites should have more lives
+2. Compass direction in the background
+
 Tuesday, April 11, 2017
 1. Bug fixes to animateLaser() function
 2. Added hasLaserCollided(key) and hasTowerCollided(key).
